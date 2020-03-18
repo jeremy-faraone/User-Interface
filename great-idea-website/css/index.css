@@ -57,10 +57,104 @@ html, body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+.container {
+
+	width: 900px;
+	margin-left: 40px;
+}
+header nav {
+	display: inline-block;
+	margin-top: 60px;
+	
+}
+header nav a {
+	margin: 0 20px;
+	color: gray;
+	text-decoration: none;
+}
+header .logo{
+	margin-left: 130px;
+}
+
+.box_1{
+	margin-left: 80px;
+	margin-top: 90px;
+	padding: 70px 0;
+	display: inline-block;
+	font-size: 60px;
+	font-family: 'Bangers', 'cursive';
+	text-align: center;
+	vertical-align: center;
+}
+.get {
+	padding: 5px;
+	font-size: 16px;
+	text-align: center;
+	border: 1px solid black;
+}
+
+.round {
+	margin-top: 70px;
+	margin-left: 150px;
+	display: inline-block;
+	vertical-align: top;
+}
+ .features {
+	 width: 445px;
+	 display: inline-block;
+ }
+ .about {
+	 margin-top: 25px;
+	 margin-bottom: 35px;
+	 width: 425px;
+	 display: inline-block;
+ }
+ .container2 {
+	 font-weight: bold;
+	 margin-left: 40px;
+	 width: 900px;
+	 border-top: 1px solid black;
+ }
+ .mid_page {
+	margin-left: 40px;
+}
+.services {
+	width: 275px;
+	display: inline-block;
+}
+.product {
+	margin-left: 15px;
+	width: 275px;
+	display: inline-block;
+}
+.vision {
+	margin-left: 15px;
+	width: 275px;
+	display: inline-block;
+}
+.container3 {
+	width: 900px;
+	font-weight: bold;
+	margin-left: 40px;
+	margin-top: 25px;
+	padding-bottom: 25px;
+	margin-bottom: 25px;
+	border-bottom: 1px solid black;
+}
+.contact {
+	font-weight: bold;
+	margin-left: 40px;
+}
+
+footer {
+	font-weight: bold;
+	margin-top: 40px;
+	margin-left: 400px;
+}
